@@ -108,6 +108,16 @@ to the Hugging Face Dataset repository described above first. The dataset must
 be accessible to the app at startup. For a private dataset, create a
 Hugging Face read token.
 
+From the project directory, authenticate interactively with a Hugging Face
+account that has write access to the Dataset, then upload the database
+directory. The CLI uploads the directory contents to the Dataset root and can
+resume an interrupted upload:
+
+```powershell
+.\.venv\Scripts\hf.exe auth login
+.\.venv\Scripts\hf.exe upload jesica2004/python-docs-rag-index --repo-type dataset .\chroma_db
+```
+
 1. Create a GitHub repository and push the application source. Keep `.venv/`,
    `__pycache__/`, `logs/`, `chroma_db/`, the rebuild-only `data/raw/` corpus,
    and generated chunk/evaluation output files out of Git; `.gitignore`
