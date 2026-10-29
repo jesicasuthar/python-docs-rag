@@ -1,0 +1,175 @@
+[
+  {
+    "id": "Q01",
+    "question": "How do I open and read a CSV file in Python?",
+    "expected_source_patterns": [
+      "library/csv.html"
+    ],
+    "topic": "csv"
+  },
+  {
+    "id": "Q02",
+    "question": "How can I write rows to a CSV file?",
+    "expected_source_patterns": [
+      "library/csv.html"
+    ],
+    "topic": "csv"
+  },
+  {
+    "id": "Q03",
+    "question": "How do I read text from a file using open()?",
+    "expected_source_patterns": [
+      "library/functions.html",
+      "tutorial/inputoutput.html"
+    ],
+    "topic": "file_io"
+  },
+  {
+    "id": "Q04",
+    "question": "What is the difference between read(), readline(), and readlines()?",
+    "expected_source_patterns": [
+      "tutorial/inputoutput.html",
+      "library/io.html"
+    ],
+    "topic": "file_io"
+  },
+  {
+    "id": "Q05",
+    "question": "How do I handle a file that does not exist using exceptions?",
+    "expected_source_patterns": [
+      "tutorial/errors.html",
+      "library/exceptions.html"
+    ],
+    "topic": "exceptions"
+  },
+  {
+    "id": "Q06",
+    "question": "How do try, except, else, and finally work in Python?",
+    "expected_source_patterns": [
+      "tutorial/errors.html"
+    ],
+    "topic": "exceptions"
+  },
+  {
+    "id": "Q07",
+    "question": "How do I define a function with a default parameter value?",
+    "expected_source_patterns": [
+      "tutorial/controlflow.html",
+      "library/functions.html"
+    ],
+    "topic": "functions"
+  },
+  {
+    "id": "Q08",
+    "question": "What are *args and **kwargs used for in function definitions?",
+    "expected_source_patterns": [
+      "tutorial/controlflow.html",
+      "reference/compound_stmts.html"
+    ],
+    "topic": "functions"
+  },
+  {
+    "id": "Q09",
+    "question": "How do list comprehensions work, and what is their syntax?",
+    "expected_source_patterns": [
+      "tutorial/datastructures.html"
+    ],
+    "topic": "comprehensions"
+  },
+  {
+    "id": "Q10",
+    "question": "How can I remove duplicates from a collection using a set?",
+    "expected_source_patterns": [
+      "tutorial/datastructures.html",
+      "library/stdtypes.html"
+    ],
+    "topic": "sets"
+  },
+  {
+    "id": "Q11",
+    "question": "How do I sort a list in place versus returning a sorted copy?",
+    "expected_source_patterns": [
+      "tutorial/datastructures.html",
+      "library/functions.html"
+    ],
+    "topic": "sorting"
+  },
+  {
+    "id": "Q12",
+    "question": "How do I create and use a dictionary in Python?",
+    "expected_source_patterns": [
+      "tutorial/datastructures.html",
+      "library/stdtypes.html"
+    ],
+    "topic": "dict"
+  },
+  {
+    "id": "Q13",
+    "question": "How do I import a module from the Python standard library?",
+    "expected_source_patterns": [
+      "tutorial/modules.html",
+      "reference/import.html"
+    ],
+    "topic": "modules"
+  },
+  {
+    "id": "Q14",
+    "question": "How can I create a virtual environment for a Python project?",
+    "expected_source_patterns": [
+      "library/venv.html",
+      "tutorial/venv.html"
+    ],
+    "topic": "venv"
+  },
+  {
+    "id": "Q15",
+    "question": "How do I install packages with pip?",
+    "expected_source_patterns": [
+      "installing/index.html",
+      "tutorial/venv.html",
+      "library/venv.html"
+    ],
+    "topic": "pip"
+  },
+  {
+    "id": "Q16",
+    "question": "How do classes, __init__, and instance attributes work?",
+    "expected_source_patterns": [
+      "tutorial/classes.html"
+    ],
+    "topic": "classes"
+  },
+  {
+    "id": "Q17",
+    "question": "How do I iterate over a sequence with enumerate()?",
+    "expected_source_patterns": [
+      "library/functions.html",
+      "tutorial/datastructures.html"
+    ],
+    "topic": "iteration"
+  },
+  {
+    "id": "Q18",
+    "question": "How do I use pathlib to build paths and check whether a file exists?",
+    "expected_source_patterns": [
+      "library/pathlib.html"
+    ],
+    "topic": "pathlib"
+  },
+  {
+    "id": "Q19",
+    "question": "How do I parse command-line arguments in a Python script?",
+    "expected_source_patterns": [
+      "library/argparse.html"
+    ],
+    "topic": "cli"
+  },
+  {
+    "id": "Q20",
+    "question": "How do I serialize and deserialize JSON data in Python?",
+    "expected_source_patterns": [
+      "library/json.html"
+    ],
+    "topic": "json"
+  }
+]

@@ -1,0 +1,9 @@
+
+streamlit
+transformers
+chromadb==1.5.9
+sentence-transformers
+torch
+beautifulsoup4
+markdown
+huggingface_hub
